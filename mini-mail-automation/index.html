@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<meta name="page-classification" content="excluded">
+<meta name="page-exclusion-reason" content="Internal application information">
+<link rel="canonical" href="https://seantins9.github.io/mini-mail-automation/">
+<title>Mini Mail Automation</title>
+<style>body{font:17px/1.65 system-ui,sans-serif;color:#202124;background:#fff;max-width:48rem;margin:3rem auto;padding:0 1.25rem}a{color:#185abc}nav{display:flex;flex-wrap:wrap;gap:1.25rem;border-bottom:1px solid #ddd;padding-bottom:1rem}h1{line-height:1.2}h2{font-size:1.25rem;margin-top:2rem}footer{border-top:1px solid #ddd;margin-top:2.5rem;padding-top:1rem;font-size:.9rem;color:#555}</style>
+</head>
+<body>
+<nav aria-label="Application information"><a href="./">Application</a><a href="privacy.html">Privacy</a><a href="terms.html">Use</a></nav>
+<main>
+<h1>Mini Mail Automation</h1>
+<p>Mini Mail Automation is Sean’s private tool for reading configured business alerts in Gmail and emailing a daily report based on information from separately authorized Crisp workspaces. The report goes only to shenghaowu97@gmail.com. The tool is for the account owner; there is no public registration.</p>
+<h2>How Gmail access works</h2>
+<p>Access begins only after the account owner authorizes the application. The requested Gmail permissions allow it to read mailbox messages and settings and to send mail as the account. Google grants these permissions at mailbox level; the narrower operating limits below are enforced by the application’s code.</p>
+<ul><li>Read identifiers and headers for configured business-alert threads, including thread metadata that may identify other participants.</li><li>Read approved alert bodies to extract the limited diagnostic fields needed to investigate an operational problem.</li><li>Read the application’s own sent reports to verify recipients and content against the prepared report.</li><li>Send the existing Crisp daily report only to the owner’s fixed address, without CC or BCC. It does not automatically reply to customers.</li></ul>
+<p>Necessary diagnostic excerpts may be processed by Codex/OpenAI. DeepSeek may be used only for a separately authorized task. These are not additional permissions granted by Google. See the privacy notice for handling and retention details.</p>
+<h2>Current setup</h2>
+<p>This page describes the intended authorized operation. Gmail API activation is pending account-owner authorization. This application does not claim Google verification or public availability.</p>
+<p>Owner and contact: <a href="mailto:shenghaowu97@gmail.com">shenghaowu97@gmail.com</a>.</p>
+</main>
+<footer>Mini Mail Automation · Updated 21 October 2026</footer>
+</body>
+</html>
